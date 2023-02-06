@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'VTC App Demo',
+      title: 'VTC App Project Demo',
       theme: ThemeData(
         // This is the theme of your application.
         //
