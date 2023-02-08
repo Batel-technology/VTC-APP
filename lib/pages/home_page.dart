@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vtc_app/pages/FlutterFlowTheme.dart';
+import 'package:vtc_app/utils/FlutterFlowTheme.dart';
 
 class HomePageWidget extends StatefulWidget {
   const HomePageWidget({Key? key}) : super(key: key);

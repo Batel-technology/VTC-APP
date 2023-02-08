@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vtc_app/pages/home_page.dart';
+import 'package:vtc_app/pages/on-boarding_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePageWidget(),
+      home: const OnBoardingPage(),
     );
   }
 }

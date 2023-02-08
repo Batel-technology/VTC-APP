@@ -32,7 +32,8 @@ dependencies:
   shared_preferences: 2.0.15
   timeago: 3.2.2
   url_launcher: 6.0.9
-  google_fonts: ^2.3.0
+  google_fonts: 2.2.0
+  smooth_page_indicator: ^1.0.0+2
 
 
 dev_dependencies:
@@ -44,9 +45,8 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
-    - assets/videos/
-    - assets/audios/
-    - assets/lottie_animations/
-    - assets/rive_animations/
-    - assets/pdfs/
+  fonts:
+    - family: Rubik Glitch
+      fonts:
+        - asset: assets/fonts/RubikGlitch-Regular.ttf  
   
