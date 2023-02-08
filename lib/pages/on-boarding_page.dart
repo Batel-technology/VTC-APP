@@ -31,6 +31,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         alignment: Alignment.bottomRight,
         children: [
           PageView(
+            physics: NeverScrollableScrollPhysics(),
             controller: _controller,
             children: [
               Stack(alignment: Alignment.center, children: <Widget>[
